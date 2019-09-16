@@ -44,7 +44,8 @@ ul {
   overflow: hidden; }
 
 main {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 40px; }
 
 header {
   margin-bottom: 100px;
@@ -117,7 +118,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1034px;
   margin: 0 auto 148px; }
   .about h2 {
     font-weight: bold;
@@ -129,6 +129,7 @@ header {
     margin-left: 19px;
     margin-right: 17px; }
   .about p {
+    max-width: 900px;
     font-size: 16px;
     color: #4d4d4d; }
 
@@ -904,8 +905,8 @@ header {
           top: -21px;
           left: 0; }
 
-.info7 .about {
-  max-width: 1057px; }
+.info7 .about p {
+  max-width: 884px; }
 
 .registration {
   margin-bottom: 100px;
@@ -1015,24 +1016,31 @@ header {
       .registration .contact .contact-link .line img {
         margin-top: 5px; }
 
-.map {
+.maps {
+  padding: 34px 0 0;
   margin: 0 auto;
-  margin-bottom: 150px;
-  height: 602px;
+  width: 1970px;
   position: relative;
-  overflow: hidden;
-  left: -133px;
-  -webkit-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-  width: 3000px; }
-  .map .map-transform {
-    position: absolute;
-    left: -1180px;
-    top: -100px;
-    -webkit-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    transform: rotate(3deg); }
+  height: 600px;
+  overflow: hidden; }
+  .maps .map {
+    margin: 0 auto;
+    margin-bottom: 150px;
+    height: 523px;
+    position: relative;
+    overflow: hidden;
+    left: -133px;
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 3000px; }
+    .maps .map .map-transform {
+      position: absolute;
+      left: -1180px;
+      top: -100px;
+      -webkit-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      transform: rotate(3deg); }
 
 footer {
   display: -webkit-box;
