@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
 }
 button{
+  outline: none;
   cursor: pointer;
 }
 a {
@@ -46,8 +47,10 @@ main{
 header{
   margin-bottom: 100px;
   height: 1100px;
-  background-size: cover;
+  background-size: auto;
   background-image: url("../images/Layer 67.png");
+  background-repeat: no-repeat;
+  background-position: center;
   .logo{
     width: 146px;
     height: 146px;
@@ -122,6 +125,7 @@ header{
   }
 }
 .about{
+  max-width: 1022px;
   display: flex;
   margin: 0 auto 148px;
     h2{
@@ -553,6 +557,7 @@ header{
 }
 .info4{
   .about{
+    max-width: 1060px;
     margin-bottom: 150px;
   }
   .dede{
@@ -653,6 +658,7 @@ header{
     &:hover .price-circle{
       background-color: #f39c12;
     }
+    max-height: 300px;
     text-align: left;
     max-width: 311px;
     .price-circle{
@@ -785,9 +791,6 @@ header{
     .swiper-pagination{
       bottom: 0;
       width: 100%;
-      .swiper-pagination-bullet{
-        margin: 0 2px;
-      }
     }
   }
 
@@ -801,11 +804,36 @@ header{
     .swiper-pagination{
       transform: rotate(90deg);
       left: 95%;
-      bottom: 46%;
-      width: 48px;
+      bottom: 48%;
+      width: 61px;
+      .swiper-pagination-bullet{
+        margin: 0 2px;
+        width: 12px;
+        height: 12px;
+      }
     }
   }
-
+  .buttons{
+    margin: 0 auto;
+    width: 185px;
+    text-align: center;
+    h2{
+      font-size: 19px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 14px;
+      color: #808080;
+    }
+    button{
+      line-height: 23px;
+      width: 31px;
+      height: 27px;
+      background: #FFFFFF;
+      border: 2px solid #e6e6e6;
+      margin: 0 5px 25px;
+    }
+  }
 }
 .allwork{
   .nav2{
@@ -1029,6 +1057,7 @@ header{
 }
 .info7{
   .about{
+    max-width: 1080px;
     p{
     max-width: 884px;}
   }

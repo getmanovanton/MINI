@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal; }
 
 button {
+  outline: none;
   cursor: pointer; }
 
 a {
@@ -50,8 +51,10 @@ main {
 header {
   margin-bottom: 100px;
   height: 1100px;
-  background-size: cover;
-  background-image: url("../images/Layer 67.png"); }
+  background-size: auto;
+  background-image: url("../images/Layer 67.png");
+  background-repeat: no-repeat;
+  background-position: center; }
   header .logo {
     width: 146px;
     height: 146px;
@@ -115,6 +118,7 @@ header {
     background: #FFFFFF; }
 
 .about {
+  max-width: 1022px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,6 +497,7 @@ header {
         color: #FFFFFF; }
 
 .info4 .about {
+  max-width: 1060px;
   margin-bottom: 150px; }
 
 .info4 .dede {
@@ -582,6 +587,7 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .prices .packege {
+    max-height: 300px;
     text-align: left;
     max-width: 311px; }
     .prices .packege:hover .price-circle {
@@ -690,8 +696,6 @@ header {
     .quotes2 .swiper-container .swiper-pagination {
       bottom: 0;
       width: 100%; }
-      .quotes2 .swiper-container .swiper-pagination .swiper-pagination-bullet {
-        margin: 0 2px; }
 
 .info5 .about {
   max-width: 1088px; }
@@ -703,8 +707,30 @@ header {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     left: 95%;
-    bottom: 46%;
-    width: 48px; }
+    bottom: 48%;
+    width: 61px; }
+    .info5 .swiper-container .swiper-pagination .swiper-pagination-bullet {
+      margin: 0 2px;
+      width: 12px;
+      height: 12px; }
+
+.info5 .buttons {
+  margin: 0 auto;
+  width: 185px;
+  text-align: center; }
+  .info5 .buttons h2 {
+    font-size: 19px;
+    font-weight: bold; }
+  .info5 .buttons p {
+    font-size: 14px;
+    color: #808080; }
+  .info5 .buttons button {
+    line-height: 23px;
+    width: 31px;
+    height: 27px;
+    background: #FFFFFF;
+    border: 2px solid #e6e6e6;
+    margin: 0 5px 25px; }
 
 .allwork .nav2 {
   max-width: 730px;
@@ -905,8 +931,10 @@ header {
           top: -21px;
           left: 0; }
 
-.info7 .about p {
-  max-width: 884px; }
+.info7 .about {
+  max-width: 1080px; }
+  .info7 .about p {
+    max-width: 884px; }
 
 .registration {
   margin-bottom: 100px;
