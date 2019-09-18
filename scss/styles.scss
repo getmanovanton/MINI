@@ -69,10 +69,22 @@ header{
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    @media (max-width: 731px) {
+      padding-bottom: 20px;
+    }
+    @media (max-width: 300px) {
+      flex-direction: column;
+      padding-left: 10px;
+    }
     a{
       color: #FFFFFF;
     }
 
+  }
+}
+.navn{
+  @media (max-width: 731px) {
+    flex-direction: column;
   }
 }
 .navn li{
@@ -80,6 +92,12 @@ header{
   font-size: 18px;
   font-weight: 400;
   padding-right: 39px;
+  @media (max-width: 1000px){
+    padding-right: 10px;
+  }
+  @media (max-width: 731px) {
+    padding-top: 10px;
+  }
    a:hover{
     color: black;
      font-weight: 600;
@@ -813,10 +831,9 @@ header{
       }
     }
   }
-  .buttons{
-    margin: 0 auto;
-    width: 185px;
+  .buttons-text{
     text-align: center;
+
     h2{
       font-size: 19px;
       font-weight: bold;
@@ -824,6 +841,23 @@ header{
     p{
       font-size: 14px;
       color: #808080;
+    }
+  }
+  .buttons{
+    margin: 0 auto;
+    width: 114px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    .swiper-button-next{
+      background-image: none;
+      position: static;
+      margin-top: 0;
+    }
+    .swiper-button-prev{
+      background-image: none;
+      position: static;
+      margin-top: 0;
     }
     button{
       line-height: 23px;
@@ -1210,7 +1244,7 @@ header{
 .maps {
   padding: 34px 0 0;
   margin: 0 auto;
-  width: 1970px;
+  max-width: 1970px;
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -1363,4 +1397,198 @@ footer {
     }
   }
 }
+@media (max-width: 1155px) {
+  .quotes .quote span {
+    display: none;
+  }
+}
+@media (max-width: 978px) {
+  .swiper-container h2 {
+    font-size: 18px;
+  }
+  .swiper-container h1 {
+    font-size: 30px;
+  }
+  .swiper-container h3 {
+    padding-bottom: 54px;
+  }
+  .swiper-container .swiper-slide a {
+    margin-bottom: 73px;}
+  .our-story {
+    display: flex;
+    margin: 0 15px;
+    flex-direction: column;}
+  .info2{
+    max-height: 100%;
+    display: block;
+    margin: 0 15px;
+    .our-skills{
+      margin-top: 15px;
+    }
+  }
+  .info4 .dede {
+    flex-direction: column;
+    margin: 0 15px;
+    .desiging2{
+      margin: 10px 0;
+    }
+  }
+}
+@media (max-width: 880px){
+  footer {
+    font-size: 8px;}
+  .registration {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .maps .map {
+    margin: 0 auto;
+    margin-bottom: 150px;
+    height: 394px;
+    position: relative;
+    overflow: hidden;
+    left: -601px;}
+}
+@media (max-width: 770px) {
+  .info6{
+    display: none;
+  }
+  .numbers{
+    display: none;
+  }
+  .our-clients{
+    display: none;
+  }
+  .prices {
+    flex-direction: column;
+    table {
+      margin:10px;
+      width: auto;
+      height: auto;
+      max-width: 748px;
+      max-height: 428px;
+    }
+    .packege {
+      text-align: center;
+      margin: 0 auto;
+      .price-circle{
+        margin:  0 auto;
+      }
+    }
+  }
+  .info5 .swiper-container .swiper-pagination {
+    left: 95%;}
 
+}
+@media (max-width: 650px){
+  .about p {
+    font-size: 9px;}
+  .about h2 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+    footer{
+    flex-direction: column;
+    justify-content: center;
+    ul {justify-content: center;}
+  }
+  footer nav li {
+    margin-right: 2px;
+  }
+  footer .copyright {
+    justify-content: center;
+  }
+  .registration .massage .name-mail {
+    padding-right: 33px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 99px;
+    border: 2px solid #d9d9d9;
+    background-image: url(../images/user-gray.png);
+    background-repeat: no-repeat;
+    background-position: right 9px top 12px;
+   }
+  .registration .massage .name-mail2{
+    padding-right: 33px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 99px;
+    border: 2px solid #d9d9d9;
+    background-repeat: no-repeat;
+    background-position: right 9px top 16px;
+    height: 41px;
+    font-size: 15px;
+    color: #808080;}
+  .registration .massage {
+    width: 200px;
+  }
+  .registration .massage .name-mail3 {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 22px;
+    padding-top: 16px;
+    padding-right: 34px;
+    padding-left: 9px;
+    width: 200px;
+    border: 2px solid #d9d9d9;
+    background-image: url(../images/pen-gray.png);
+    background-repeat: no-repeat;
+    background-position: right 11px top 13px;
+    height: 80px;
+    font-size: 15px;
+    resize: none;
+    color: #808080;}
+  .registration .massage button{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 498px) {
+  footer {
+    font-size: 5px;
+  }
+  .info2 .our-skills .our-skills-text .icon {
+    display: none;
+  }
+  .allwork .nav2 li {
+    color: #a6a6a6;
+    font-size: 10px;}
+  .info5 .swiper-container .swiper-pagination {
+    left: 87%;}
+  .prices table td a {
+    background-color: #fafafa;
+    margin: 34px 0;
+    color: black;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 2px solid #f39c12;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 600;
+     line-height: normal;}
+}
+@media (max-width: 360px) {
+  .quotes3 h2 {
+    margin: 0 auto;
+    font-size: 15px;}
+  .allwork .nav2 li {
+    color: #a6a6a6;
+    font-size: 8px;}
+  .quotes2 .swiper-container .swiper-slide p {
+    font-size: 11px;}
+  .quotes2 .swiper-container .swiper-slide h2 {
+    font-size: 18px;}
+  .info5 .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+  .registration .contact .contact-link {
+    font-size: 10px;
+  }
+  .registration h2 {
+    margin-bottom: 0px;}
+  .registration .contact p {
+    font-size: 12px;}
+  .info5 .swiper-container .swiper-pagination {
+    left: 83%;}
+}
