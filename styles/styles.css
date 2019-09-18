@@ -1195,6 +1195,13 @@ footer {
     display: none; } }
 
 @media (max-width: 978px) {
+  .our-story .text-1 {
+    margin: 0 auto 20px;
+    text-align: center; }
+  .our-story .text-1 h2 {
+    text-align: center; }
+  .icon {
+    margin: 0 auto; }
   .swiper-container h2 {
     font-size: 18px; }
   .swiper-container h1 {
@@ -1204,6 +1211,7 @@ footer {
   .swiper-container .swiper-slide a {
     margin-bottom: 73px; }
   .our-story {
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1213,19 +1221,24 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column; }
   .info2 {
+    text-align: center;
     max-height: 100%;
     display: block;
     margin: 0 15px; }
     .info2 .our-skills {
-      margin-top: 15px; }
+      margin: 15px auto; }
+  .info4 .dede .desiging {
+    margin: 0 auto; }
+  .info4 .dede .desiging2 {
+    margin: 15px auto; }
+  .info4 .dede .desiging3 {
+    margin: 0 auto; }
   .info4 .dede {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 0 15px; }
-    .info4 .dede .desiging2 {
-      margin: 10px 0; } }
+    margin: 0 15px; } }
 
 @media (max-width: 880px) {
   footer {
