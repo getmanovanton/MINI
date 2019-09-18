@@ -1352,6 +1352,8 @@ footer {
     margin-bottom: 20px; } }
 
 @media (max-width: 498px) {
+  .registration .contact .contact-link span {
+    line-height: 34px; }
   footer {
     font-size: 5px; }
   .info2 .our-skills .our-skills-text .icon {
@@ -1391,7 +1393,7 @@ footer {
   .registration .contact .contact-link {
     font-size: 10px; }
   .registration h2 {
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
   .registration .contact p {
     font-size: 12px; }
   .info5 .swiper-container .swiper-pagination {
