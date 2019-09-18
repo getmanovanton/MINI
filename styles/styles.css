@@ -1302,6 +1302,10 @@ footer {
     padding-bottom: 54px; } }
 
 @media (max-width: 650px) {
+  .team {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .about p {
     font-size: 9px; }
   .about h2 {
