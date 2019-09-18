@@ -75,25 +75,8 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between;
     color: #FFFFFF; }
-    @media (max-width: 731px) {
-      header .navigation {
-        padding-bottom: 20px; } }
-    @media (max-width: 300px) {
-      header .navigation {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-left: 10px; } }
     header .navigation a {
       color: #FFFFFF; }
-
-@media (max-width: 731px) {
-  .navn {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; } }
 
 .navn li {
   padding-top: 67px;
@@ -1286,6 +1269,24 @@ footer {
         margin: 0 auto; }
   .info5 .swiper-container .swiper-pagination {
     left: 95%; } }
+
+@media (max-width: 731px) {
+  .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .navn li {
+    padding-right: 3px;
+    font-size: 12px; }
+  header .navigation {
+    padding-bottom: 54px; } }
 
 @media (max-width: 650px) {
   .about p {

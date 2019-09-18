@@ -69,22 +69,10 @@ header{
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
-    @media (max-width: 731px) {
-      padding-bottom: 20px;
-    }
-    @media (max-width: 300px) {
-      flex-direction: column;
-      padding-left: 10px;
-    }
     a{
       color: #FFFFFF;
     }
 
-  }
-}
-.navn{
-  @media (max-width: 731px) {
-    flex-direction: column;
   }
 }
 .navn li{
@@ -1479,6 +1467,19 @@ footer {
   .info5 .swiper-container .swiper-pagination {
     left: 95%;}
 
+}
+@media (max-width: 731px) {
+  .navigation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navn li {
+    padding-right: 3px;
+    font-size: 12px;
+  }
+  header .navigation {
+    padding-bottom: 54px;}
 }
 @media (max-width: 650px){
   .about p {
